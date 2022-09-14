@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import About from "./Components/About";
+import Footer from "./Components/Footer";
 import Gallery from "./Components/Gallery";
 import Hero from "./Components/Hero";
 import Models from "./Components/Models";
@@ -23,6 +24,7 @@ function App() {
       <Video />
       <Services />
       <Gallery />
+      <Footer />
     </AppWrapper>
   );
 }
